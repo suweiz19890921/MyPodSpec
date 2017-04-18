@@ -40,8 +40,6 @@ Pod::Spec.new do |s|
    s.dependency 'MOBFoundation'
    s.dependency 'ShareSDK2'
    s.dependency 'ShareSDK2/Connection/WeChat'
-   s.dependency 'ShareSDK2/Connection/WeChat'
    s.dependency 'ShareSDK2/Connection/Facebook'
-   s.dependency 'ShareSDK2/Connection/QQ'
 
 end
