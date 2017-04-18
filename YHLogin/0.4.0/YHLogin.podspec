@@ -41,5 +41,8 @@ Pod::Spec.new do |s|
    s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'MOBFoundation'
    s.dependency 'ShareSDK2'
+   s.dependency 'ShareSDK2/Connection/WeChat'
+   s.dependency 'ShareSDK2/Connection/WeChat'
+   s.dependency 'ShareSDK2/Connection/Facebook'
 
 end
