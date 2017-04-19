@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { '814325429@qq.com' => '814325429@qq.com' }
   s.source           = { :git => 'https://github.com/suweiz19890921/YHLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.libraries = 'icucore', 'z.1.2.5', 'stdc++'
+  # s.libraries = 'icucore', 'z.1.2.5', 'stdc++'
   s.ios.deployment_target = '8.0'
   s.source_files = 'YHLogin/Classes/**/*'
   
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'MapKit','SystemConfiguration', 'QuartzCore', 'CoreTelephony', 'Security', 'JavaScriptCore', 'CoreText'
+   s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'MOBFoundation'
    s.dependency 'ShareSDK2'
    s.dependency 'ShareSDK2/Connection/WeChat'
